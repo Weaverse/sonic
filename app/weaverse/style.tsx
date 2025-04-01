@@ -36,6 +36,7 @@ export function GlobalStyle() {
       headingBaseLineHeight,
       navHeightDesktop,
       navHeightTablet,
+      buttonBorderRadius,
       pageWidth,
     } = settings;
 
@@ -107,6 +108,9 @@ export function GlobalStyle() {
 
               --heading-base-spacing: ${headingBaseSpacing};
               --heading-base-line-height: ${headingBaseLineHeight};
+
+              /* Buttons */
+              --btn-border-radius: ${buttonBorderRadius}px;
 
             @media (min-width: 32em) {
               body {

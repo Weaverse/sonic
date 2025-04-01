@@ -77,7 +77,7 @@ export function CountrySelector() {
       <Popover.Root>
         <Popover.Trigger asChild>
           <button
-            className="w-full border border-line-subtle overflow-clip px-4 py-3 cursor-pointer text-left outline-none flex items-center gap-2"
+            className="w-full overflow-clip px-4 py-3 cursor-pointer text-left outline-none flex items-center gap-2"
             aria-label="Select country"
           >
             <ReactCountryFlag

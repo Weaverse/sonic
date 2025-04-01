@@ -19,6 +19,7 @@ let variants = cva(["transition-colors inline-flex"], {
     variant: {
       primary: [
         "border px-4 py-3",
+        "rounded-[--btn-border-radius]",
         "text-[--btn-primary-text]",
         "bg-[--btn-primary-bg]",
         "border-[--btn-primary-bg]",
@@ -28,6 +29,7 @@ let variants = cva(["transition-colors inline-flex"], {
       ],
       secondary: [
         "border px-4 py-3",
+        "rounded-[--btn-border-radius]",
         "text-[--btn-secondary-text]",
         "bg-[--btn-secondary-bg]",
         "border-[--btn-secondary-bg]",
@@ -37,6 +39,7 @@ let variants = cva(["transition-colors inline-flex"], {
       ],
       outline: [
         "border px-4 py-3",
+        "rounded-[--btn-border-radius]",
         "text-[--btn-outline-text]",
         "bg-transparent",
         "border-[--btn-outline-text]",
@@ -46,6 +49,7 @@ let variants = cva(["transition-colors inline-flex"], {
       ],
       custom: [
         "border px-4 py-3",
+        "rounded-[--btn-border-radius]",
         "text-[--btn-text]",
         "bg-[--btn-bg]",
         "border-[--btn-border]",
